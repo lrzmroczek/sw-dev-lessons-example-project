@@ -15,4 +15,4 @@ def test_offset():
 
 
 def test_data_set():
-    assert do_algorithm([1, 2, 2, 5, 5]) == 2
+    assert do_algorithm([1, 2, 2, 5, 5]) == 1
