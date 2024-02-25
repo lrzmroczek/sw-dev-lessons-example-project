@@ -19,7 +19,7 @@ def get_offset(data):
 def do_algorithm(data):
     """ Perform the special algorithm on the data.
     """
-    return get_average(data)
+    return get_average(data) + get_offset(data)
 
 
 def main():
