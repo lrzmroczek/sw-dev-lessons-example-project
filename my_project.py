@@ -10,10 +10,16 @@ def get_average(data):
     return statistics.median(data)
 
 
+def get_offset(data):
+    """ Get the value to offset the minimum value to 0.
+    """
+    return -1 * min(data)
+
+
 def do_algorithm(data):
     """ Perform the special algorithm on the data.
     """
-    return get_average(data)
+    return get_average(data) + get_offset(data)
 
 
 def main():
