@@ -5,9 +5,9 @@ Perform the special algorithm on the data set.
 import statistics
 
 def get_average(data):
-    """ Get the mean of the data
+    """ Get the median of the data
     """
-    return statistics.mean(data)
+    return statistics.median(data)
 
 
 def get_offset(data):
